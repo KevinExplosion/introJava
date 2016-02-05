@@ -3,3 +3,6 @@ public class iLoveChocolate {
     System.out.println("I love Chooooocolate!");
   }
 }
+
+//print to command line is system out
+//system in requests input
