@@ -8,14 +8,14 @@ public class Grades {
 
     String userGrade = console.readLine();
 
-    Boolean gradeA = userGrade == "A";
-    Boolean gradeB = userGrade == "B";
+    // Boolean gradeA = userGrade == "A";
+    // Boolean gradeB = userGrade == "B";
 
-    if(gradeA || gradeB) {
+    if(userGrade == "A") {
       System.out.println("That's pretty damned good!");
     } else if (userGrade == "C") {
       System.out.println("Your average! Congrats, slacker!");
-    } else if ((userGrade == "D") || (userGrade == "F")) {
+    } else if (userGrade == "D" || userGrade == "F") {
       System.out.println("What the...I don't...why? Nevermind.");
     } else {
       System.out.println("Your inability to follow simple instructions is pretty telling of what grade you received...");
